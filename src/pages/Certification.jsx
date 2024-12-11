@@ -8,6 +8,7 @@ import knowlesCompletion from "../assets/certi/knowles-completion.png";
 import mdmsSeminar from "../assets/certi/mdms-seminar.png";
 import ReactNative from "../assets/certi/reactNative.jpg";
 import MERN from "../assets/certi/mern_stack.jpg";
+import Azure from "../assets/certi/azure_cloud.jpg";
 
 import { useState } from "react";
 
@@ -23,6 +24,13 @@ const Certification = () => {
       img: MERN,
       company: "MERN - The MERN Fullstack Guide",
       certi: "Course",
+      date: "2024",
+    },
+
+    {
+      img: Azure,
+      company: "Fortifying Azure Cloud Storage ",
+      certi: "Workshop",
       date: "2024",
     },
 

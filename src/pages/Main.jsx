@@ -72,6 +72,11 @@ const tech = [
   },
 
   {
+    name: "React Native",
+    icon: <FaReact className="hover:text-[#5DD3F3]" size={50} />,
+  },
+
+  {
     name: "NodeJS",
     icon: <FaNodeJs className="hover:text-[#56A143]" size={50} />,
   },
