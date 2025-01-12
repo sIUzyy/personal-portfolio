@@ -222,11 +222,7 @@ const Main = () => {
         </div>
       </div>
 
-      <div className="pb-10">
-        <h1 className="font-main tracking-widest text-2xl">TECHNOLOGIES</h1>
-      </div>
-
-      <div className="overflow-hidden whitespace-nowrap py-4">
+      <div className="overflow-hidden whitespace-nowrap">
         <motion.div
           className="inline-flex space-x-8"
           animate={{ x: ["0%", "-100%"] }}
@@ -242,7 +238,7 @@ const Main = () => {
           }}
         >
           {duplicatedTech.map((techno, index) => (
-            <div key={index} className="flex items-center pb-5">
+            <div key={index} className="flex items-center ">
               <span className="mr-4 text-[#A1A1AA]">{techno.icon}</span>
               <h1 className="text-[#A1A1AA] font-main tracking-widest md:text-2xl">
                 {techno.name}
@@ -251,18 +247,6 @@ const Main = () => {
           ))}
         </motion.div>
       </div>
-
-      {/* <div className=''>
-      <div className='grid grid-cols-2  md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-5'>
-      {tech.map((techno) => (
-
-      <div key={techno.id} className='flex items-center pb-5'>
-        <span className='mr-4 text-[#A1A1AA]'>{techno.icon}</span>
-        <h1 className='text-[#A1A1AA]  font-main tracking-widest md:text-2xl'>{techno.name}</h1>
-      </div>
-      ))}
-      </div>
-    </div> */}
 
       <div className="main-container py-4 lg:flex">
         <div className="container-1  lg:mr-16  lg:w-3/5">
